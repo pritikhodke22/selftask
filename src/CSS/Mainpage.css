@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+.mainpage_logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+}
+
+.mainpage_links {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+a:active {
+  color: green;
+}
+
+.bakmainpage_img {
+  background-image: url("../imges/mainpage.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  opacity: 1;
+}
+
+.carosel_text {
+  position: absolute;
+  top: 50%;
+  left: 35% !important;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: left !important;
+}
+
+.mainpage_para {
+  margin-top: 25px;
+  margin-bottom: 4px;
+}
+
+.mainpage_greenbtn {
+  background: limegreen !important;
+  color: white !important;
+  width: 110px !important;
+  border-radius: 3px !important;
+}
+
+.mainpage_greybtn {
+  background: dimgray !important;
+  color: white !important;
+  width: 120px !important;
+  border-radius: 3px !important;
+  margin-left: 25px;
+}
+
+.mainpage_cards {
+  background: #f2f2f2;
+}
+
+.mainpage_card_img {
+  border: 1px solid #f2f2f2;
+  border-radius: 50px !important;
+  height: 100px;
+  width: 100px !important;
+  margin-left: 105px;
+  margin-top: 20px;
+}
+
+.card_para {
+  text-shadow: 2px 3px 10px grey;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.card1_img {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  bottom: 40px;
+}
+
+.card2_img {
+  height: 200px;
+}
+
+.card_padding {
+  padding-top: 80px;
+}
+
+.services_underline {
+  color: limegreen;
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+  bottom: 29px;
+  font-size: 30px;
+}
+
+.mar_lef {
+  margin-left: 47%;
+}
+
+.mainpage_services_img {
+  border: 1px solid #f2f2f2;
+  height: 100px;
+  width: 100px !important;
+  margin-left: 132px;
+  position: relative;
+  bottom: 20px;
+}
+
+.services_card {
+  margin-top: 70px !important;
+}
+
+.servicescard_img {
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+  background-color: #f2f2f2 !important;
+  border: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .servicescard_img {
+    margin-top: 45px;
+  }
+  .carousel_img {
+    height: 300px !important;
+  }
+  .mainpage_services_img {
+    border: 1px solid #f2f2f2;
+    height: 100px;
+    width: 100px !important;
+    margin-left: 115px;
+    position: relative;
+    bottom: 20px;
+  }
+  .mbresp_head {
+    font-size: 20px;
+    width: 285px;
+  }
+  .mainpage_para {
+    margin-top: 10px;
+  }
+  .carosel_text {
+    position: absolute !important;
+    top: 35%;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: left !important;
+    width: 255px;
+  }
+  .mar_lef {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=Mainpage.css.map */
